@@ -1,9 +1,9 @@
 sudo: false
-dist: trusty
+dist: bionic
 language: generic
 env:
-- DIST=trusty ARCH=i386 BSPS=pc386 VERSION=4.9
-- DIST=trusty ARCH=powerpc BSPS=mvme3100 VERSION=4.9
+- DIST=bionic ARCH=i386 BSPS=pc386 VERSION=4.9
+- DIST=bionic ARCH=powerpc BSPS=mvme3100 VERSION=4.9
 addons:
   apt:
     packages:
